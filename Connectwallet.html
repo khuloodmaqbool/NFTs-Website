@@ -1,0 +1,357 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect Wallet</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./logo.png">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+    <style>
+        
+   /* choose portion start  */
+   .cover2{
+    background: url(unsplash_eNoeWZkO7Zc\ \(1\).png);
+            background-position: center;
+            background-size: contain;
+            width: 100%;
+            height: fit-content; 
+
+}
+        .cwallet {
+            /* margin-bottom: 40px; */
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-items: center;
+            color: white;
+            width: 100%;
+            height: fit-content;
+           
+        }
+        .cwallet .choose1 {
+            width: 350px;
+            height: 330px;
+            background: rgba(255, 255, 255, 0.085);
+            border-radius: 20px;
+            /* background: transparent; */
+            backdrop-filter: blur(20px);
+            border: 1px solid white;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        .cwallet .choose1 .img1 {
+          background: url(wallet1.png);
+        
+        }
+        .cwallet .choose1 .img2 {
+          background: url(wallet2.png);
+        
+        }
+        .cwallet .choose1 .img3 {
+          background: url(wallet3.png);
+        
+        }
+        .cwallet .choose1 .img4 {
+          background: url(wallet4.png);
+        
+        }
+        .cwallet .choose1 .img5 {
+          background: url(wallet5.png);
+        
+        }
+        .cwallet .choose1 .img6 {
+          background: url(wallet6.png);
+        
+        }
+        .cwallet .choose1 .img1, .cwallet .choose1 .img2, .cwallet .choose1 .img3, 
+        .cwallet .choose1 .img4, .cwallet .choose1 .img5, .cwallet .choose1 .img6{
+            background-repeat: no-repeat;
+          background-position: center;
+          /* background-size: contain; */
+          width: 100%;
+          height: 150px;
+          /* background-color: brown; */
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+
+ 
+
+
+        .cwallet .choose1 h3 {
+text-align: center;
+font-size: 19px;
+font-weight: normal;
+}
+
+
+@media screen and (max-width: 877px) {
+
+.cwallet .choose1 {
+  width: 300px;
+  height: fit-content;
+}
+.cwallet .choose1 h3{
+  font-size: 15px;
+}
+.cwallet .choose1 .img1, .cwallet .choose1 .img2, .cwallet .choose1 .img3, 
+        .cwallet .choose1 .img4, .cwallet .choose1 .img5, .cwallet .choose1 .img6{
+          background-size: contain;
+        }
+}
+
+
+.cwallet p {
+  font-size: 0.9em; /* Default font size */
+  color: C2C2C2;
+  padding: 0px 20px 0px 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+ .cwallet p {
+    font-size: 0.8em; /* Font size for smaller screens */
+  }
+}
+
+@media screen and (min-width: 1070px) and (max-width: 1211px) {
+  .cwallet .choose1 {
+    margin: 20px;
+  }
+}
+        /* choose portion end  */
+
+        .ao ,.bo ,.co ,.do, .eo, .fo ,.go{
+    filter: blur(8px);
+  -webkit-filter: blur(155px);
+  background: linear-gradient(135deg, rgb(181, 26, 86), rgb(104, 94, 207));
+  /* background-color: aquamarine; */
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  z-index: -1;
+  
+/* animation: rotateGradient 20s linear infinite;  */
+animation: rotateGradient 4s linear 0s infinite ;
+}
+
+@keyframes rotateGradient {
+    from {
+        background: linear-gradient(135deg, rgb(181, 26, 86), rgb(104, 94, 207));
+        /* transform: rotate(20deg); */
+        transform: translate(50px,100px);
+    }
+    to {
+        background: linear-gradient(135deg,rgb(2, 142, 193), rgb(181, 26, 86));
+        /* transform: rotate(80deg); */
+        transform: translate(100px,120px);
+    }
+}
+
+.ao {
+    position: absolute;
+    top: 2%;
+    left: 40%;
+   
+
+}
+.bo {
+    position: absolute;
+    top: 90%;
+    right: 1px;
+}
+.co {
+    position: absolute;
+    top: 170%;
+    left: 1px;
+}
+/* .do {
+    position: absolute;
+   top: 240%;
+   right: 1px;
+    
+} */
+/* .eo {
+    position: absolute;
+    top: 330%;
+    left: 1px;
+}
+.fo {
+    position: absolute;
+    top: 430%;
+    right: -3px;
+    z-index: -1;
+}
+.go {
+    position: absolute;
+    top: 470%;
+    left: 1px;
+} */
+
+
+    </style>
+</head>
+<body>
+
+
+  <div class="ao"></div>
+  <div class="bo"></div>
+     <div class="co"></div>
+        <!-- <div class="do"></div> -->
+
+        <!-- <div class="eo"></div>
+        <div class="fo"></div>
+           <div class="go"></div> -->
+           <nav>
+            <a href="./Home.html"><div class="logo"> <img src="./logo.png" alt=""></div></a>
+              <ul>
+                  <li><a style="color: white;" href="./Home.html">HOME</a></li>
+                  <li><a style="color: white;" href="./About.html">ABOUT</a></li>
+                  <li><a style="color: white;" href="./blogs.html">BLOG</a></li>
+                  <li><a style="color: white;" href="./Products.html">PRODUCTS</a></li>
+                  <li><a style="color: white;" href="./Contact.html">CONTACT</a></li>
+              </ul>
+              <div class="btn">
+                  <img src="fluent_cart-20-regular.png" alt="">
+                  <div class="btnborder">
+                      <div class="btnback">
+                          <a href="./Connectwallet.html"><button>Connect Wallet</button></a>
+                      </div>
+                  </div>
+              </div>
+              </div>
+          </nav>
+    
+    
+    <div class="fstPortion">
+        <!-- <div class="back">
+            <h2>NFTS</h2>
+        </div> -->
+               <div class="center">
+    
+                <div class="left">
+                    <div class="txt">
+          <h1 style="color: white;">
+            CONNECT YOUR WALLET
+          </h1>
+        <p>Ready to explore the exciting world of NFTs? Connect your wallet now to gain access to a universe of digital art, collectibles, and unique experiences. With just a few clicks, you'll be part of our vibrant NFT community, ready to buy, sell, and own digital treasures like never before. Join us and start your NFT adventure today!</p>
+        </div>
+        </div>
+        
+        
+        <div class="right">
+            <img src="Group 101 (1).png" alt="">
+           
+        </div>
+    
+        </div>
+        
+            </div>
+    
+        <!-- cwallet portion start -->
+        
+ <!-- choose portion start  -->
+ <div class="cover2">
+    <div class="cwallet">
+
+        <div class="choose1">
+<div class="img1"></div>
+<h3>Metamask Wallet</h3>
+<p>Supercharge your NFT journey with MetaMask.Connect now and own the digital art world</p>
+        </div>
+
+        <div class="choose1">
+            <div class="img2"></div>
+            <h3>AlphaWallet</h3>
+            <p>Connect your AlphaWallet for an NFT journey like never before</p>
+        </div>
+
+        <div class="choose1">
+            <div class="img3"></div>
+<h3>MathWallet</h3>
+<p>Elevate your NFT experience with MathWallet. Connect and dive into the world of digital art</p>
+        </div>
+    </div>
+
+
+
+
+    <div class="cwallet">
+
+        <div class="choose1">
+<div class="img4"></div>
+<h3>CoinBase</h3>
+<p>Coinbase Wallet: Your gateway to a world of digital creativity.  Connect and collect NFTs today</p>
+        </div>
+
+        <div class="choose1">
+<div class="img5"></div>
+<h3>Ledger NFT Wallet</h3>
+<p>Secure your NFT treasures with Ledger. Connect your Ledger NFT Wallet now</p>
+        </div>
+        <div class="choose1">
+<div class="img6"></div>
+<h3>Zengo Wallet</h3>
+<p>Zengo Wallet: Your key to the NFT universe. Connect and start collecting unique digital assets</p>
+        </div>
+    </div>
+
+
+
+
+
+
+</div>
+
+
+<!-- choose portion end  -->
+
+<!-- cwallet portion end -->
+                 <!-- footer start  -->
+                 <footer>
+                    <div class="left">
+                    <div>
+                        <ul>
+                        <li>About</li>
+                        <li>History</li>
+                        <li>Our Team</li>
+                        <li>Terms and Condition</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                    </div>
+                    <div>
+                    <ul>
+                        <li>Resources</li>
+                        <li>Help Center</li>
+                        <li>Partners</li>
+                        <li>News Letter</li>
+                        <li>Home</li>
+                    </ul>
+                    </div>
+                    <div>
+                        <ul>
+                        <li>Markets</li>
+                        <li>All NFTs</li>
+                        <li>Art</li>
+                        <li>MeeCat</li>
+                        <li>Collectibles</li>
+                    </ul>
+                    </div>
+                    </div>
+                    <div class="right">
+                    <div>
+                    <h3>Sign Up to recieve our News letter</h3>
+                    <p>Be the First to Know! Join Our Newsletter for Exclusive Updates and Insights.</p>
+                    <input type="text" placeholder="Enter your Email">
+                    <button type="button">Subscribe</button>
+                    
+                    </div>
+                    </div>
+                    
+                    
+                    
+                    </footer>
+</body>
+</html>

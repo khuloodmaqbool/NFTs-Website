@@ -1,0 +1,492 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./logo.png">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+    <style>
+        .blogsec {
+            width: 90%;
+            margin: 0px auto 0px auto;
+        }
+.blogsec .blogpg {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 20px;
+    background: url(blogpg1.png);
+    background-size: cover;
+    background-position: top;
+    /* width: 90%; */
+    height: 450px;
+    margin: 10px auto 20px auto;
+    border-radius: 30px;
+}
+
+.blogsec .textdiv {
+    color: white;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+}
+.blogsec .textdiv h2,.blogsec .textdiv p {
+    /* margin: 7px 0px 7px 0px; */
+    margin: 0px;
+    color: white;
+}
+.blogsec > p {
+    color: C2C2C2;
+    /* background-color: blueviolet; */
+    font-size: 0.9em;
+    margin: 12px 0px 12px 0px;
+}
+
+@media screen and (max-width: 877px) {
+
+   .blogsec .textdiv h2 {
+   font-size: 16px;
+}
+.blogsec .textdiv p{
+ font-size: 13px;
+}
+}
+.blogsec .flotimg {
+    margin: 20px 20px 20px 0px;
+     float: left;
+      width: 550px;
+       height: 430px;
+        /* background-color: blue; */
+        background: url(flotimg.png);
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+}
+
+@media screen and (max-width: 1262px) {
+
+    .blogsec .flotimg  {
+
+width: 500px;
+height: 380px;
+}
+.blogsec .blogpg{
+height: 400px;
+}
+}
+
+@media screen and (max-width: 1109px) {
+
+    .blogsec .flotimg  {
+
+width: 450px;
+height: 330px;
+}
+.blogsec .blogpg{
+    height: 360px;
+}
+}
+@media screen and (max-width: 913px) {
+
+    .blogsec .flotimg  {
+
+width: 400px;
+height: 280px;
+}
+.blogsec .blogpg{
+    height: 300px;
+}
+}
+@media screen and (max-width: 815px) {
+
+    .blogsec .flotimg  {
+
+width: 350px;
+height: 230px;
+}
+.blogsec .blogpg {
+    height: 270px;
+}
+}
+@media screen and (max-width: 394px) {
+
+    .blogsec .flotimg  {
+
+width: 230px;
+height: 140px;
+}
+.blogsec .blogpg {
+    height: 230px;
+}
+}
+
+
+/* /* blogs end  */
+
+/* comment portion start  */
+
+.contactpage input , .contactpage textarea{
+            color: C2C2C2;
+            border: 0.5px solid white;
+            
+            background: rgba(255, 255, 255, 0.085);
+            backdrop-filter: blur(10px);
+            margin: 10px 0px 10px 0px;
+            padding: 10px 15px 10px 15px ;
+            border-radius: 10px;
+            font-family: "Poppins", sans-serif;
+            font-size: 16px; /* Default font size */
+           
+        }
+  
+.contactpage input:focus {
+    color: white;
+    border: 1px solid white;
+     box-shadow: 0px 0px 10px 0px white;
+}
+@media screen and (max-width: 768px) {
+  .contactpage input {
+    font-size: 14px; /* Font size for smaller screens */
+  }
+}
+@media screen and (max-width: 527px) {
+  .contactpage input {
+    width: 100%; /* Font size for smaller screens */
+  }
+}
+.contactpage form div {
+    background: url(unsplash_eNoeWZkO7Zc\ \(1\).png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+          
+}
+      .contactpage form { 
+            width: fit-content;
+            margin: 50px;
+          
+        }
+       
+       .contactpage h2 {
+  font-size: 1.5em; /* Default font size */
+  /* text-transform: capitalize; */
+  color: white;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+ .contactpage h2 {
+    font-size: 1.2em; /* Font size for smaller screens */
+  }
+}
+
+
+
+
+
+       .contactpage .a {
+            width: 100%;
+        }
+      .contactpage textarea{
+            width: 100%;
+            height: 150px;
+    
+        }
+        /* button {
+            background-color: black;
+            color: white;
+            padding: 10px 30px 10px 30px;
+            border: 1px solid white;
+        } */
+       
+       .contactpage button {
+            font-family: "Poppins", sans-serif;
+            background-color: black;
+            border: 1px solid white;
+  width: 100px; /* Default width */
+  height: 40px; /* Default height */
+  font-size: 16px; /* Default font size */
+  color: white;
+  border-radius: 10px;
+  margin-top: 25px;
+  background: rgba(255, 255, 255, 0.085);
+            backdrop-filter: blur(10px);
+            /* transition: 2s; */
+            cursor: pointer;
+
+}
+ .contactpage button:active {
+    box-shadow: 0px 0px 10px 0px white;
+    background: rgba(255, 255, 255, 0.085);
+    color: white;
+
+ }
+ .contactpage button:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 10px 0px rgb(255, 255, 255);
+    transition: 0.5s;
+    font-size: 17px;
+ }
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+ .contactpage button {
+    width: 80px; /* Adjusted width for smaller screens */
+    height: 30px; /* Adjusted height for smaller screens */
+    font-size: 14px; /* Adjusted font size for smaller screens */
+  }
+.contactpage button:hover {
+    font-size: 15px;
+  }
+}
+/* gardient  */
+.ao ,.bo ,.co ,.do, .eo, .fo ,.go{
+    filter: blur(8px);
+  -webkit-filter: blur(155px);
+  background: linear-gradient(135deg, rgb(181, 26, 86), rgb(104, 94, 207));
+  /* background-color: aquamarine; */
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  z-index: -1;
+  
+/* animation: rotateGradient 20s linear infinite;  */
+animation: rotateGradient 4s linear 0s infinite ;
+}
+
+@keyframes rotateGradient {
+    from {
+        background: linear-gradient(135deg, rgb(181, 26, 86), rgb(104, 94, 207));
+        /* transform: rotate(20deg); */
+        transform: translate(50px,100px);
+    }
+    to {
+        background: linear-gradient(135deg,rgb(2, 142, 193), rgb(181, 26, 86));
+        /* transform: rotate(80deg); */
+        transform: translate(100px,120px);
+    }
+}
+
+.ao {
+    position: absolute;
+    top: 2%;
+    left: 40%;
+   
+
+}
+.bo {
+    position: absolute;
+    top: 90%;
+    right: 1px;
+}
+.co {
+    position: absolute;
+    top: 170%;
+    left: 1px;
+}
+/* .do {
+    position: absolute;
+   top: 240%;
+   right: 1px;
+    
+}
+.eo {
+    position: absolute;
+    top: 330%;
+    left: 1px;
+}
+.fo {
+    position: absolute;
+    top: 430%;
+    right: -3px;
+    z-index: -1;
+}
+.go {
+    position: absolute;
+    top: 470%;
+    left: 1px;
+} */
+    </style>
+</head>
+<body>
+    <!-- nav start  -->
+    <div class="ao"></div>
+    <div class="bo"></div>
+       <div class="co"></div>
+          <!-- <div class="do"></div> -->
+  
+          <!-- <div class="eo"></div>
+          <div class="fo"></div>
+             <div class="go"></div> -->
+             <nav>
+                <a href="./Home.html"><div class="logo"> <img src="./logo.png" alt=""></div></a>
+                  <ul>
+                      <li><a style="color: white;" href="./Home.html">HOME</a></li>
+                      <li><a style="color: white;" href="./About.html">ABOUT</a></li>
+                      <li><a style="color: white;" href="./blogs.html">BLOG</a></li>
+                      <li><a style="color: white;" href="./Products.html">PRODUCTS</a></li>
+                      <li><a style="color: white;" href="./Contact.html">CONTACT</a></li>
+                  </ul>
+                  <div class="btn">
+                      <img src="fluent_cart-20-regular.png" alt="">
+                      <div class="btnborder">
+                          <div class="btnback">
+                              <a href="./Connectwallet.html"><button>Connect Wallet</button></a>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+              </nav>
+    <!-- nav end  -->
+
+<div class="blogsec">
+    <div class="blogpg">
+
+    <!-- <div class="blg1"></div> -->
+
+   <div class="textdiv">
+<p>December 31,2022</p>
+<h2>The Evolution Of Modern Art</h2>
+   </div>
+    </div>
+
+
+
+<p>In the ever-evolving world of art, technology has continuously played a pivotal role in shaping the way we create, consume, and appreciate artistic expressions. One of the most recent and groundbreaking developments in the art world is the rise of Non-Fungible Tokens (NFTs) as a platform for modern artists to showcase their work. In this blog post, we will delve into the world of modern art on NFT platforms, exploring what NFTs are, how they've revolutionized the art market, and how artists are harnessing this digital medium to push the boundaries of creativity.</p>
+<p>What are NFTs?</p>
+<p>Non-Fungible Tokens, or NFTs, are unique digital assets that represent ownership of a specific item or piece of content on the blockchain. Unlike cryptocurrencies such as Bitcoin or Ethereum, NFTs are not interchangeable; each one has a distinct value and cannot be exchanged on a one-to-one basis. This uniqueness is what makes NFTs particularly suitable for representing and selling digital art.</p>
+    <p>The NFT Art Revolution</p>
+    <p>NFTs have disrupted the traditional art world by offering artists an entirely new way to monetize and distribute their work. Here are some ways in which NFTs have transformed the art. Welcome to "Exploring Modern Art in the Digital Age: NFT Platforms and Beyond," where we will delve into the world of modern art on NFT platforms, exploring what NFTs are, how they've revolutionized the art market, and how artists are harnessing this digital medium to push the boundaries of creativity.
+        </p>
+<div class="flotimg"></div>
+<p>Digital Ownership: NFTs enable artists to sell digital art as unique, collectible assets. Previously, digital art was easily copied and distributed without benefiting the artist. NFTs establish provenance and ownership.</p>
+<p>Decentralization: NFT platforms operate on blockchain technology, which is decentralized and secure. This eliminates the need for intermediaries like galleries and auction houses, giving artists more control over their work and earnings.  </p>
+<p>Global Reach: Artists can reach a global audience without geographical limitations, potentially connecting with collectors and enthusiasts from all over the world.</p>
+<p>Smart Contracts: NFTs incorporate smart contracts that automatically pay artists a percentage of resale prices. This provides ongoing revenue even as the artwork changes hands in the secondary market.</p>
+<p>Interactivity: Some NFTs are more than static images or videos; they can be interactive experiences, opening up new creative possibilities for artist</p>
+<p>Artists and NFT Platforms <br>
+    Several contemporary artists have embraced NFT platforms to showcase their work. Here are a few examples:</p>
+<p>Beeple: Mike Winkelmann, known as Beeple, made headlines in 2021 when he sold a digital collage as an NFT for $69 million. His work often combines political satire with pop culture.
+  <br>  CryptoPunks and CryptoKitties: These early NFT projects paved the way for digital collectibles and avatar-based art, inspiring countless artists to experiment with the medium.</p>
+<p>Virtual Worlds: Some artists are creating digital sculptures, buildings, and environments within virtual worlds like Decentraland and The Sandbox, offering immersive art experiences.</p>
+<p>In the ever-evolving world of art, technology has continuously played a pivotal role in shaping the way we create, consume, and appreciate artistic expressions. Today, we embark on an exhilarating journey into the boundless realm of contemporary art, where pixels and code converge to create masterpieces that challenge conventional notions of value and ownership. Welcome to "Exploring Modern Art in the Digital Age: NFT Platforms and Beyond," where we will delve into the world of modern art on NFT platforms, exploring what NFTs are, how they've revolutionized the art market, and how artists are harnessing this digital medium to push the boundaries of creativity. Join us as we venture beyond traditional canvases and explore the future of artistic express</p>
+
+
+<div class="contactpage">
+    <form style="margin-left: 0px;" action="">
+        <h2>Leave a Reply</h2>
+        <div>
+        <input style="margin-right: 15px; margin-top: 0px;" type="text" placeholder="First Name">
+        <input style="margin-top: 0px;" type="text" placeholder="Last Name"> <br>
+<input class="a" type="email" placeholder="Enter Your Email"> <br>
+<input class="a"  type="number" placeholder="Phone Number"> <br>
+
+
+<textarea style="margin-bottom: 0px;" placeholder="Message"></textarea>
+
+
+</div>
+<button style="width: 100%;" type="submit">Comment</button>
+    </form>
+  </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+<!-- reply portion start  -->
+<div class="blogs">
+      <a href="./Blog.html">
+    <div style="background: url(blog4.png); background-position: center; background-repeat: no-repeat; background-size: cover;"  class="blog1">
+    
+<div>
+<p>Feburary 31,2022</p>
+<h2>Find Modern Art On NFTs Platforms</h2>
+</div>
+    </div>
+</a>
+
+<a href="./Blog.html">
+    <div style="background: url(blog5.png); background-position: top; background-repeat: no-repeat; background-size: cover;" class="blog2">
+    
+        <div>
+        <p>Feburary 31,2022</p>
+        <h2>Find Modern Art On NFTs Platforms</h2>
+        </div>
+            </div>
+        </a>
+        <a href="./Blog.html">
+            <div style="background: url(blog6.png); background-position: center; background-repeat: no-repeat; background-size: cover;" class="blog3">
+    
+                <div>
+                <p>Feburary 31,2022</p>
+                <h2>Find Modern Art On NFTs Platforms</h2>
+                </div>
+                    </div>
+</a>
+</div>
+<div style="margin: 40px auto 0px auto;" class="btnborder">
+    <div class="btnback">
+       <a href="./blogs.html"> <button>View More</button></a>
+    </div>
+</div>
+
+<!-- footer start  -->
+<footer>
+    <div class="left">
+    <div>
+        <ul>
+        <li>About</li>
+        <li>History</li>
+        <li>Our Team</li>
+        <li>Terms and Condition</li>
+        <li>Privacy Policy</li>
+    </ul>
+    </div>
+    <div>
+    <ul>
+        <li>Resources</li>
+        <li>Help Center</li>
+        <li>Partners</li>
+        <li>News Letter</li>
+        <li>Home</li>
+    </ul>
+    </div>
+    <div>
+        <ul>
+        <li>Markets</li>
+        <li>All NFTs</li>
+        <li>Art</li>
+        <li>MeeCat</li>
+        <li>Collectibles</li>
+    </ul>
+    </div>
+    </div>
+    <div class="right">
+    <div>
+    <h3>Sign Up to recieve our News letter</h3>
+    <p>Be the First to Know! Join Our Newsletter for Exclusive Updates and Insights.</p>
+    <input type="text" placeholder="Enter your Email">
+    <button type="button">Subscribe</button>
+    
+    </div>
+    </div>
+    
+    
+    
+    </footer>
+<!-- footer end  -->
+
+</body>
+</html>
